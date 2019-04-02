@@ -29,24 +29,24 @@ inquirer.prompt([
     },
 
     {
-        type: "input", 
+        type: "input",
         name: "itemForBid",
         message: "What are you putting up for auction?"
     },
 
     {
-        type: "input", 
+        type: "input",
         name: "initialPrice",
         message: "How much are you listing this item for?"
     },
-    
+
     {
         type: "list"
         name: "itemToBidOn",
         //List out items stored from other inquirer.
         options: ["Filler", "Filler 2"],
         message: "What item would you like to bid on?"
-    }
+    },
 
     {
         type: "input"
